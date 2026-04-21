@@ -1,0 +1,1 @@
+export async function exportNode(node: HTMLElement, filename: string) { const h = await import('html2canvas'); const canvas = await h.default(node,{scale:2,backgroundColor:null}); const a=document.createElement('a'); a.href=canvas.toDataURL('image/png'); a.download=filename; a.click(); }

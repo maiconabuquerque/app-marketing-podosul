@@ -1,0 +1,1 @@
+export default function Loading(){ return <div className="glass rounded-3xl p-6 animate-pulse"><div className="h-6 w-48 bg-slate-200 rounded mb-4"/><div className="h-64 bg-slate-200 rounded-3xl"/></div> }
